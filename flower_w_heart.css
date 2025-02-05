@@ -1999,3 +1999,17 @@ h1 {
     opacity: 1;
   }
 }
+
+/* Adjust flowers container to be centered */
+.flowers {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Adjust individual flowers to align properly */
+.flower {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
